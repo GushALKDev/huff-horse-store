@@ -15,3 +15,6 @@ docs/
 
 # forge lib
 lib/
+
+# workflows
+.github/workflows/
