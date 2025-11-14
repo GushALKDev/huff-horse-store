@@ -187,3 +187,8 @@ JUMP                // [calldataload(without_function_selector), 0x4a, function_
 
 INVALID
 
+
+
+// 3. CONTRACT METADATA
+// Contract metadata. Not reachable. Has some stuff that helps identify what solidity compiler version was used and stuff. Not important for us. 
+LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA9 0xF8 0xF9 ISZERO CALLDATASIZE PUSH11 0xDA1B50AA56817AA4D80C37 0x2A 0x2B SWAP15 0xE0 0xCD 0xE4 OR CALLDATASIZE 0x5D 0xD4 0xBE SWAP15 0xC8 PUSH28 0x5464736F6C6343000814003300000000000000000000000000000000
