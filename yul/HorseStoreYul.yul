@@ -1,6 +1,6 @@
 
 // How to compile Yul code using solc:
-// solc --strict-assembly --optimize --optimize-runs 20000 ./yul/HorseStoreYul.yul --bin | grep 60
+// solc --strict-assembly --optimize --optimize-runs 20000 ./yul/HorseStoreYul.yul --bin | grep fe
 
 object "HorseStoreYul" {
     code {
