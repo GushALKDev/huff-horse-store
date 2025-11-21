@@ -82,5 +82,4 @@ solc --optimize --optimize-runs 20000 src/horseStoreV1/HorseStoreYul.sol --bin |
 *   **`src/horseStoreV2`**: Contains updated versions (likely for later parts of the course).
 *   **`yul/`**: Contains standalone Yul implementations.
 *   **`breakdowns/`**: Contains opcode breakdowns.
-
-> **Note**: Files in this folder may have the `.c++` extension. This is solely for **syntax highlighting** purposes to make OPCODES easier to read. The code is **not** C++.
+    > **Note**: Files in this folder may have the `.c++` extension. This is solely for **syntax highlighting** purposes to make OPCODES easier to read. The code is **not** C++.
